@@ -1,2 +1,2 @@
 [prod]
-prod ansible_host=polls.doomatel.com ansible_ssh_user=root ansible_python_interpreter=python2.7
+prod ansible_host=46.101.144.55 ansible_ssh_user=root ansible_python_interpreter=python2.7

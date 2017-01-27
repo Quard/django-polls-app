@@ -3,7 +3,7 @@ services:
   app:
 #    build:
 #      context: ./src
-    image: doomatel/django-polls-webapp
+    image: zakovinko/django-polls-webapp
     depends_on:
       - database
       - redis
@@ -19,7 +19,7 @@ services:
   celery:
 #    build:
 #      context: ./src
-    image: doomatel/django-polls-webapp
+    image: zakovinko/django-polls-webapp
     depends_on:
       - app
       - database
